@@ -7,4 +7,7 @@ Note
     If nth is not positive, return -1
     Keep in mind that 42 = 00042. This means that findDigit(42, 5) would return 0
 """
-def find_nth_digit():
+def find_nth_digit(num, nth):
+    num = num.split()
+    for n in num:
+        return n[-nth]
